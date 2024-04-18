@@ -3896,3 +3896,12 @@
 			}
 
 	}
+
+	.icon.orcid {
+		display: inline-block;
+		width: 20px;  /* Adjust size as needed */
+		height: 20px; /* Adjust size as needed */
+		background-image: url('https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
