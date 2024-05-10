@@ -41,6 +41,19 @@
 				</nav>
 			</header>
 
+            <!-- JavaScript for Dropdown Interaction -->
+            <script>
+                document.getElementById('dropdownMenu').addEventListener('click', function(event) {
+                    var submenu = this.querySelector('.submenu');
+                    if (submenu.style.display === 'block') {
+                        submenu.style.display = 'none';
+                    } else {
+                        submenu.style.display = 'block';
+                    }
+                    event.preventDefault(); // Prevent the default action
+                });
+            </script>
+
 
     <!-- Banner -->
     <!-- Put a new image for the banner here -->
